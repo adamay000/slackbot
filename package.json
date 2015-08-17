@@ -1,0 +1,22 @@
+{
+  "name": "utilbot",
+  "version": "0.0.0",
+  "private": true,
+  "author": "Adamay000",
+  "description": " ",
+  "scripts": {
+    "default": "./run.sh"
+  },
+  "dependencies": {
+    "hubot": "^2.13.2",
+    "hubot-scripts": "^2.16.2",
+    "hubot-slack": "^3.3.0"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "devDependencies": {
+    "lodash": "^3.10.1",
+    "redis": "^0.12.1"
+  }
+}
