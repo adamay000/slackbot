@@ -4,11 +4,13 @@
 
 ```sh
 $ npm install
-$ sudo apt-get redis-server
-$ chown +x server.sh
-$ chown +x run.sh
+$ brew install redis
+# homebrewが使えない場合
+# $ sudo apt-get redis-server
+$ chmod +x server.sh
+$ chmod +x run.sh
 $ touch token
-# edit token
+# トークンを編集する
 $ ./server.sh
 $ ./run.sh
 ```
