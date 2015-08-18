@@ -11,6 +11,9 @@ echo "\e[36mRunnig hubot...\e[m"
 # Set path to node_modules
 export PATH="node_modules/.bin:node_modules/hubot/node_modules/.bin:$PATH"
 
+# IF default port is already used
+# export PORT="9999"
+
 # Run hubot with slack adapter
 exec node_modules/.bin/hubot --adapter slack --name "utilbot" "$@"
 
